@@ -8,7 +8,8 @@
 - 含vscode cmake配置，在CMakeLists.txt改一下mvs包所在路径(也可能不需要改)，即可f5无脑启动
 
 ## 运行环境 
-ubuntu20.04、22.04
+1.ubuntu20.04、22.04\
+2.Intel NUC
 
 ## 项目依赖
 - OpenCV
