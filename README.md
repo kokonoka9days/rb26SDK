@@ -1,6 +1,6 @@
 # rb26SDK
 ## 简介
-该仓库为电科中山RoboBrave战队26赛季自瞄所需硬件驱动(因为目前只有相机驱动和串口通信驱动)，相机SDK包括海康相机、大恒相机。
+该仓库为电科中山RoboBrave战队26赛季自瞄所需C++相机驱动，相机SDK包括海康相机、大恒相机。
 ## 🌟该项目的亮眼之处？
 - 📦&ensp;大恒与海康驱动分别封装成sdk::DahengCamrea、sdk::HikCamrea类，并继承sdk::Camrea类，用户可通过实例化模版类继承的普通类sdk::CameraExmple\<sdk::DahengCamrea或sdk::HikCamrea>并调用实例化类的成员方法来启动相机，框架逻辑清晰方便阅读和使用
 - 📃&ensp;注释多，不需要耗费太多精力来阅读
