@@ -4,7 +4,7 @@
 		{
 			"type": "shell",
 			"label": "build",
-			"command": "./rbOP_Vision_run.sh",
+			"command": "./demo.sh",
 			"problemMatcher": [],
 			"group": {
                 "kind": "build",
